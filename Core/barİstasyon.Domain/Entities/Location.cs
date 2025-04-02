@@ -3,9 +3,8 @@ namespace barİstasyon.Domain.Entities
 {
 	public class Location
 	{
-		public Location()
-		{
-		}
-	}
+
+        public int Id { get; set; }
+    }
 }
 

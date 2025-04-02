@@ -3,7 +3,7 @@ namespace barİstasyon.Domain.Entities
 {
 	public class FooterAddess
 	{
-		public int FooterAdressID { get; set; }
+		public int Id { get; set; }
 
 		public string Description { get; set; }
 

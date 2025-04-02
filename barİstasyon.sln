@@ -14,6 +14,12 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastru
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "barİstasyon.Persistence", "Infrastructure\barİstasyon.Persistence\barİstasyon.Persistence.csproj", "{26208C7F-6F24-4C2C-B7CE-0B44B7E75965}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{50B62374-E240-4B9E-8137-D05F5029A4A1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "barİstasyon.WebApi", "barİstasyon.WebApi\barİstasyon.WebApi.csproj", "{25FD2C8A-C7D5-49A7-9476-C4027DB675A7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "barİstasyon.Application", "Core\barİstasyon.Application\barİstasyon.Application.csproj", "{3D1F5C8E-3268-404D-8489-43879F9EE794}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -28,6 +34,14 @@ Global
 		{26208C7F-6F24-4C2C-B7CE-0B44B7E75965}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{26208C7F-6F24-4C2C-B7CE-0B44B7E75965}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{26208C7F-6F24-4C2C-B7CE-0B44B7E75965}.Release|Any CPU.Build.0 = Release|Any CPU
+		{25FD2C8A-C7D5-49A7-9476-C4027DB675A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{25FD2C8A-C7D5-49A7-9476-C4027DB675A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{25FD2C8A-C7D5-49A7-9476-C4027DB675A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{25FD2C8A-C7D5-49A7-9476-C4027DB675A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D1F5C8E-3268-404D-8489-43879F9EE794}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D1F5C8E-3268-404D-8489-43879F9EE794}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D1F5C8E-3268-404D-8489-43879F9EE794}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D1F5C8E-3268-404D-8489-43879F9EE794}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -38,5 +52,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{07A87E2B-23B9-4450-8EF4-CB90B4806C6A} = {EF08D0B2-F04A-4D29-A323-B66DBC1227C5}
 		{26208C7F-6F24-4C2C-B7CE-0B44B7E75965} = {3ABAC2E5-DAB8-4289-B49B-3D7DDDB6024F}
+		{25FD2C8A-C7D5-49A7-9476-C4027DB675A7} = {50B62374-E240-4B9E-8137-D05F5029A4A1}
+		{3D1F5C8E-3268-404D-8489-43879F9EE794} = {EF08D0B2-F04A-4D29-A323-B66DBC1227C5}
 	EndGlobalSection
 EndGlobal
