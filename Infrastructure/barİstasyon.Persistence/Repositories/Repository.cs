@@ -1,4 +1,4 @@
-﻿using barİstasyon.Application.Interfaces;
+﻿    using barİstasyon.Application.Interfaces;
 
 namespace barİstasyon.Persistence.Repositories
 {
